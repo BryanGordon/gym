@@ -1,15 +1,21 @@
 export function Navbar () {
   return (
     <nav>
-      <ul className='w-full bg-cyan-600 flex text-red-600'>
-        <li className='text-red-500'>
-          Home
+      <ul className='w-full py-8 bg-cyan-600 flex justify-around'>
+        <li>
+          <a href='#'>
+            Home
+          </a>
         </li>
         <li>
-          Servicios
+          <a href='#'>
+            Servicios
+          </a>
         </li>
         <li>
-          Contactos
+          <a href='#'>
+            Contactos
+          </a>
         </li>
       </ul>
     </nav>
