@@ -11,5 +11,12 @@
     background-color: #000034;
     
   }
-  /* #00004A */
+
+  main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
