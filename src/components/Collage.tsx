@@ -1,4 +1,4 @@
-export function Vento () {
+export function Collage () {
   return (
     <section className='mb-24'>
       <article className='text-bodyText w-3/4 my-0 mx-auto grid grid-cols-2 gap-5'>
