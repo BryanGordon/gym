@@ -1,14 +1,16 @@
 import { About } from './components/About'
 import { Footer } from './components/Footer'
 import { Navbar } from './components/Navbar'
-import { Vento } from './components/Vento'
+import { Collage } from './components/Collage'
+import { Habilities } from './components/Habilities'
 
 function App () {
   return (
     <main>
       <Navbar />
       <About />
-      <Vento />
+      <Collage />
+      <Habilities />
       <Footer />
     </main>
   )
