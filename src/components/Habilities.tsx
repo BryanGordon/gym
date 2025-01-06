@@ -42,11 +42,13 @@ export function Habilities () {
           </div>
 
         </div>
+
         <div className='col-span-1 row-span-1 bg-indigo-400'>
           <div className='pl-5 pt-4 flex'>
             <PersonIcon />
             <span className='ml-5'>Entrenadores personales a tu disposicion</span>
           </div>
+
           <div className='flex justify-evenly '>
             <p className='w-3/5 pt-10 px-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, non vel amet illum maiores autem!</p>
             <picture className='w-1/4'>
@@ -54,11 +56,13 @@ export function Habilities () {
             </picture>
           </div>
         </div>
+
         <div className='col-span-2 row-span-1 bg-rose-400 overflow-hidden'>
           <div className='pl-5 pt-4 flex'>
             <ClockIcon />
             <span className='ml-5'>Horario flexibles. Ajustalo como quieras!!!</span>
           </div>
+
           <div className='flex'>
             <p className='w-3/4 pt-10 px-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi expedita fuga nulla, consequatur nisi officiis. Fugiat, rerum sed? Magnam, expedita.</p>
             <picture>
@@ -66,6 +70,7 @@ export function Habilities () {
             </picture>
           </div>
         </div>
+
       </article>
     </section>
   )
