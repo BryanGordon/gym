@@ -7,7 +7,8 @@ export default {
         h1: '32px',
         h2: '24px',
         h3: '18.72px',
-        h4: '16px'
+        h4: '16px',
+        bentoTitle: '18px'
       },
       colors: {
         navText: 'black',
@@ -15,5 +16,5 @@ export default {
       }
     }
   },
-  plugins: [],
+  plugins: []
 }
