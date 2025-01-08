@@ -1,18 +1,20 @@
-import { About } from './components/About'
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
+
 import { Footer } from './components/Footer'
 import { Navbar } from './components/Navbar'
-import { Collage } from './components/Collage'
-import { Habilities } from './components/Habilities'
+import { Home } from './components/Home'
 
 function App () {
   return (
-    <main>
-      <Navbar />
-      <About />
-      <Collage />
-      <Habilities />
-      <Footer />
-    </main>
+    <Router>
+      <main>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+        <Footer />
+      </main>
+    </Router>
   )
 }
 
