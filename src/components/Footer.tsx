@@ -4,7 +4,7 @@ import { WhatsappIcon } from '../icons/Whatsapp'
 
 export function Footer () {
   return (
-    <footer className='w-full p-4 bg-cyan-600 mt-auto'>
+    <footer className='w-full p-4 bg-[#8F90B5] mt-auto'>
       <div className='flex justify-between px-2'>
         <span className='content-center text-lg'>Gym</span>
         <span className='content-center text-lg'>Volver al inicio</span>
@@ -20,6 +20,7 @@ export function Footer () {
             <i><WhatsappIcon /></i>
           </a>
         </div>
+
       </div>
     </footer>
   )
