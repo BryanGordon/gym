@@ -1,16 +1,18 @@
-import { BarbellIcon } from '../icons/barbell'
+import { BarbellIcon } from '../icons/Barbell'
 import { ClockIcon } from '../icons/Clock'
 import { PersonIcon } from '../icons/Person'
 import { SaladIcon } from '../icons/Salad'
-import Exercie from "/exercie-draw.png"
-import Salad from '/salad.png'
-import Muscle from '/muscle.png'
-import Time from '/free-time.png'
+import Exercise from '../assets/exercie-draw.webp'
+import Salad from '../assets/salad.webp'
+import Muscle from '../assets/muscle.webp'
+import Time from '../assets/free-time.webp'
 
 export function Habilities () {
   return (
     <section className='mb-24'>
-      <h1 className='text-bodyText text-h1 text-center mb-10'>Mejora con nosotros</h1>
+      <header>
+        <h1 className='text-bodyText text-h1 text-center mb-10'>Mejora con nosotros</h1>
+      </header>
       <article className='w-3/4 h-[600px] my-0 mx-auto grid grid-cols-2 grid-rows-3 gap-2'>
 
         <div className='col-span-1 row-span-2 bg-orange-500 rounded-xl'>
@@ -21,7 +23,7 @@ export function Habilities () {
 
           <div>
             <picture className='flex flex-col h-3/4 justify-start place-items-center pt-10 mb-9'>
-              <img className='w-96 h-52' src={Exercie} alt='imagen' />
+              <img className='w-96 h-52' src={Exercise} alt='imagen' />
             </picture>
             <p className='px-6 font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit doloribus dolor voluptatum porro at?</p>
           </div>
@@ -39,7 +41,6 @@ export function Habilities () {
               <img src={Salad} alt='imagen' />
             </picture>
           </div>
-
         </div>
 
         <div className='col-span-1 row-span-1 bg-indigo-400 rounded-xl'>

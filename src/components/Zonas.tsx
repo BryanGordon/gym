@@ -1,6 +1,6 @@
-import Sauna from '/sauna.webp'
-import Material from '/gym-material.webp'
-import Piscina from '/piscina.jpg'
+import Sauna from '../assets/sauna.webp'
+import Material from '../assets/gym-material.webp'
+import Piscina from '../assets/piscina.webp'
 
 export function Zonas () {
   return (

@@ -1,11 +1,14 @@
-import GymView from '/outside-left-view.webp'
-import GymView2 from '/outside-right-view.jpg'
+import GymView from '../assets/outside-left-view.webp'
+import GymView2 from '../assets/outside-right-view.webp'
 
 export function Sedes () {
   return (
     <section className='mb-24'>
-      <h1 className='text-bodyText text-h1 mt-16 text-center'>Nuestras sedes</h1>
+      <header>
+        <h1 className='text-bodyText text-h1 mt-16 text-center'>Nuestras sedes</h1>
+      </header>
       <article className='mt-10'>
+
         <div className='w-3/4 flex flex-col my-0 mx-auto'>
           <h3 className='text-bodyText text-h3 mb-8'>Ibarra</h3>
           <picture>
