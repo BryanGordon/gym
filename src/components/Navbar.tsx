@@ -5,13 +5,13 @@ export function Navbar () {
     <nav>
       <ul className='w-full py-8 bg-[#8F90B5] flex justify-around'>
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink className='navbar-element' to='/'>Home</NavLink>
         </li>
         <li>
-          <NavLink to='/servicios'>Servicios</NavLink>
+          <NavLink className='navbar-element' to='/servicios'>Servicios</NavLink>
         </li>
         <li>
-          <NavLink to='/contactos'>Contactos</NavLink>
+          <NavLink className='navbar-element' to='/contactos'>Contactos</NavLink>
         </li>
       </ul>
     </nav>
