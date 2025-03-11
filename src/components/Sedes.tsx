@@ -12,7 +12,7 @@ export function Sedes () {
         <div className='w-3/4 flex flex-col my-0 mx-auto'>
           <h3 className='text-bodyText text-h3 mb-8'>Ibarra</h3>
           <picture>
-            <img className='w-[1250px] min-w-48 h-[580px] rounded-lg' src={GymView} alt='image' />
+            <img className='w-[1250px] min-w-48 h-[580px] rounded-lg shadow-[#131313f8] shadow-xl' src={GymView} alt='image' />
           </picture>
           <p className='text-bodyText text-center py-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsa!</p>
         </div>
@@ -20,7 +20,7 @@ export function Sedes () {
         <div className='w-3/4 flex flex-col my-0 mx-auto'>
           <h3 className='text-bodyText text-h3 mb-8'>Quito</h3>
           <picture>
-            <img className='w-[1250px] min-w-48 h-[580px] rounded-lg' src={GymView2} alt='image' />
+            <img className='w-[1250px] min-w-48 h-[580px] rounded-lg shadow-[#131313f8] shadow-xl' src={GymView2} alt='image' />
           </picture>
           <p className='text-bodyText text-center py-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, inventore.</p>
         </div>
