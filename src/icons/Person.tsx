@@ -5,7 +5,7 @@ export function PersonIcon () {
       height='27'
       viewBox='0 0 23 23'
       fill='none'
-      stroke='currentColor'
+      stroke='#e5e7eb'
       strokeWidth='1.5'
       strokeLinecap='round'
       strokeLinejoin='round'
