@@ -5,7 +5,7 @@ export function SaladIcon () {
       height='27'
       viewBox='0 0 23 23'
       fill='none'
-      stroke='currentColor'
+      stroke='#e5e7eb'
       strokeWidth='1.2'
       strokeLinecap='round'
       strokeLinejoin='round'
