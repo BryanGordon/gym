@@ -12,7 +12,7 @@ export default {
         navText: '19.75px'
       },
       colors: {
-        navText: 'black',
+        navText: 'white',
         bodyText: 'white',
         bentoText: '#F7F7F7',
         bentoParag: '#e5e7eb'
