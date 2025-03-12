@@ -1,7 +1,5 @@
 import { NavLink } from 'react-router-dom'
-// #B4B4B4
-// #620089
-// #000034
+
 export function Navbar () {
   return (
     <nav id='top'>
