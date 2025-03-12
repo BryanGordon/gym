@@ -5,10 +5,11 @@ export function WhatsappIcon () {
       height='26'
       viewBox='0 0 24 24'
       fill='none'
-      stroke='currentColor'
+      stroke='#04BF55'
       strokeWidth='1.9'
       strokeLinecap='round'
       strokeLinejoin='round'
+      className='hover:stroke-[#dabef4d6] transition ease-linear duration-200'
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9' />
