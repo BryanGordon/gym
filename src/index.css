@@ -74,21 +74,22 @@
   
   .navbar-element {
     border-radius: 20px;
-    padding: 4px 8px;
+    padding: 4px 20px;
+    color: rgba(247, 233, 247, .4);
     transition: all ease-in 0.29s;
   }
 
   .navbar-element:hover {
-   color: rgba(255, 255, 255, 0.841);
-   background-color: rgba(87, 86, 86, 0.838);
+   color: rgb(15, 14, 14);
+   background-color: rgba(218, 190, 244, 0.839);
   }
 
   .navbar-element.active {
-    color: rgba(107, 16, 107, 0.76);
+    color: rgb(247, 233, 247);
   }
 
   .navbar-element.active:hover {
-   color: rgba(255, 255, 255, 0.841);
+   color: rgb(15, 14, 14);
   }
 
 
