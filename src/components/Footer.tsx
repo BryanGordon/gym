@@ -7,8 +7,8 @@ export function Footer () {
     <footer className='w-full p-6 mt-auto bg-gradient-to-b from-[#000034] via-[#3B0050] to-[#620089]'>
       <div className='flex justify-between px-2'>
         <span className='content-center text-navText'>Gym</span>
-        <span className='content-center text-navText'>
-          <a href='#top'>
+        <span className='content-center text-navText footer-text transition ease-in-out duration-200'>
+          <a className='hover:text-[#dabef4ea] transition ease-in-out duration-200' href='#top'>
             Volver al inicio
           </a>
         </span>
