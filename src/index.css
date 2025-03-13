@@ -92,5 +92,9 @@
    color: rgb(15, 14, 14);
   }
 
+  .footer-text:hover {
+    text-shadow: 0 5px 3px black;
+  }
+
 
 }
