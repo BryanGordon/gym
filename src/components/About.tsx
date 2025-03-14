@@ -11,7 +11,7 @@ export function About () {
       <article className='mt-10 '>
         <picture>
           <motion.img
-            className='w-[1250px] min-w-48 h-[580px] my-0 mx-auto rounded-md shadow-[#131313f8] shadow-xl'
+            className='w-[1250px] min-w-48 h-[580px] my-0 mx-auto rounded-md shadow-[#131313f8] shadow-xl md:w-[90%] sm:w-[80%] max-sm:w-[80%]'
             src={Gym}
             alt='Gym entrance'
             initial={{ opacity: 0, scale: 0.8 }}
