@@ -12,7 +12,7 @@ export function Zonas () {
           <h3 className='text-h3 text-bodyText'>Equipo de primera</h3>
           <div className='mt-8 flex'>
             <picture className='mr-9'>
-              <img className='w-[600px] rounded-lg shadow-[#131313f8] shadow-lg' src={Material} alt='image' />
+              <img className='lg:w-[600px] rounded-lg shadow-[#131313f8] shadow-lg' src={Material} alt='image' />
             </picture>
             <p className='text-bodyText w-1/2 content-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque soluta repellat enim! Voluptas, voluptates sequi. Molestiae, alias reprehenderit voluptatem possimus obcaecati, mollitia voluptates reiciendis in perferendis voluptate distinctio repellendus blanditiis!</p>
           </div>
