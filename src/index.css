@@ -96,5 +96,10 @@
     text-shadow: 0 5px 3px black;
   }
 
+  @media screen and (max-width: 1460px) {
+    .bento-responsive-container {
+      background-color: antiquewhite;
+    }
+  }
 
 }
