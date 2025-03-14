@@ -11,7 +11,7 @@ export function Collage () {
 
   return (
     <section className='mb-24'>
-      <article className='text-bodyText w-3/4 my-0 mx-auto grid grid-cols-2 gap-5'>
+      <article className='text-bodyText w-3/4 my-0 mx-auto grid lg:grid-cols-2 gap-5 sm:grid-cols-1'>
         <motion.img
           className='rounded-md w-full h-[440px]'
           src={Exercise} alt='People doing exercise'
