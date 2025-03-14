@@ -13,7 +13,7 @@ export function Habilities () {
       <header>
         <h1 className='text-bodyText text-h1 text-center mb-10'>Mejora con nosotros</h1>
       </header>
-      <article className='w-3/4 h-[600px] my-0 mx-auto grid grid-cols-2 grid-rows-3 gap-2'>
+      <article className='w-3/4 h-[600px] my-0 mx-auto grid grid-cols-2 grid-rows-3 gap-2 bento-responsive-container'>
 
         <div className='col-span-1 row-span-2 bg-orange-500/60 rounded-xl'>
           <div className='pl-5 pt-4 flex'>
