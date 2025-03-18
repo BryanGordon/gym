@@ -5,7 +5,7 @@ import Piscina from '../assets/piscina.webp'
 export function Zonas () {
   return (
     <section className='mb-24'>
-      <h1 className='text-h1 text-center text-bodyText mt-16'>Nuestras instalaciones</h1>
+      <h1 className='text-h1 text-center text-bodyText mt-16 max-[420px]:text-[48px]'>Nuestras instalaciones</h1>
       <article className='w-3/4 flex flex-col my-0 mx-auto mt-12'>
 
         <div className='mb-16'>
