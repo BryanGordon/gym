@@ -9,6 +9,7 @@ export function BarbellIcon () {
       strokeWidth='1'
       strokeLinecap='round'
       strokeLinejoin='round'
+      className='max-[720px]:stroke-[1.5] max-[720px]:w-[35px] max-[720px]:h-[35px] max-[450px]:mb-2'
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M2 12h1' />
